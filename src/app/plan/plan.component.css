@@ -1,0 +1,376 @@
+.Quote {
+  width: 935px;
+  height: 737px;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  background-color: #f6f6f6;
+}
+
+img.background-Travel {
+  width: 935px;
+  height: 371px;
+  margin: 0 0 366px;
+  padding: 40px 342px 230px;
+  object-fit: contain;
+  position: relative;
+  display: block;
+}
+
+.Rectangle-6-Copy {
+  width: 935px;
+  height: 699px;
+  margin: 0px 0 0;
+  padding: 143px 30px 40px 136px;
+  -webkit-backdrop-filter: blur(10px);
+  background-color: transparent;
+  position: relative;
+  top: -40%;
+  z-index: +1;
+  text-align: center;
+}
+
+.Select-a-plan {
+  width: 155px;
+  height: 31px;
+  margin: 0 48px 40px;
+  font-family: MuseoSans;
+  font-size: 26px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+}
+
+.title {
+  width: 98px;
+  height: 15px;
+  margin: 8px 10px 7px 0;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.08px;
+  text-align: right;
+  color: #fff;
+}
+.Mask {
+  width: 935px;
+  height: 371px;
+  margin: 0 0 366px;
+  padding: 40px 342px 230px;
+  background-color: #317bda;
+}
+.Rectangle-19 {
+  width: 50px;
+  height: 30px;
+  margin: 0 10px;
+  padding: 4px 4px 4px 24px;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.2);
+  z-index: +3;
+}
+
+.Rectangle-19-ball {
+  width: 22px;
+  height: 22px;
+  border-radius: 11px;
+  background-color: #fff;
+  z-index: +2;
+}
+.Rectangle-5 {
+  width: 323px;
+  height: 470px;
+  margin: 0 15px 30px 0;
+  mix-blend-mode: multiply;
+  border-radius: 3px;
+  box-shadow: 0 2px 4px 0 rgba(72, 72, 72, 0.5);
+  background-color: #31cfda;
+}
+
+.Rectangle-Global {
+  width: 323px;
+  height: 510px;
+  margin: 0px 30px 0px 0px;
+  padding: 19px 0 0;
+  mix-blend-mode: multiply;
+  border-radius: 3px;
+  box-shadow: 0 2px 4px 0 rgba(72, 72, 72, 0.5);
+  background-color: #31cfda;
+}
+
+.Rectangle-Price-Global {
+  width: 323px;
+  height: 95px;
+  padding: 15px 76px 20px 77px;
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.Rectangle-4 {
+  width: 323px;
+  height: 470px;
+  margin: 0px 0px 410px;
+  padding: 19px 0 0;
+  border-radius: 3px;
+  background-color: #fff;
+}
+
+.Rectangle-Universe {
+  width: 323px;
+  height: 510px;
+  margin: 0px 0px 0px;
+  padding: 19px 0 0;
+  border-radius: 3px;
+  background-color: #fff;
+}
+
+.Rectangle-Price-Universe {
+  width: 323px;
+  height: 95px;
+  padding: 16px 76px 20px 77px;
+  background-color: #f5fdfe;
+}
+
+.Annes-Global {
+  width: 72px;
+  height: 21px;
+  margin: 0 125px 18px 126px;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+}
+
+.Annes-Universe {
+  width: 72px;
+  height: 21px;
+  margin: 0 125px 18px 126px;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--greyish-brown);
+}
+
+.Line-Copy-4 {
+  width: 323px;
+  height: 1px;
+  margin: 17.5px 0 0.5px;
+  opacity: 0.7;
+  border: solid 1px blue-gray;
+  z-index: 21;
+}
+
+.Price-Global {
+  width: 119px;
+  height: 44px;
+  margin: 0 4px 0 0;
+  font-family: Roboto;
+  font-size: 38px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+}
+
+.Price-Currency-Global {
+  font-family: Roboto;
+  font-size: 19px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fff;
+}
+
+.Price-Universe {
+  width: 119px;
+  height: 44px;
+  margin: 0 4px 0 0;
+  font-family: Roboto;
+  font-size: 38px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #31cfda;
+}
+
+span.Span-Global {
+  width: 283px;
+  height: 14px;
+  margin: 0 20px 15px;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+}
+
+span.Span-Universe {
+  width: 283px;
+  height: 28px;
+  margin: 15px 20px 1px;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--greyish-brown);
+}
+
+.text-style-1 {
+  font-weight: 300;
+}
+
+.Monthly-incl-taxes-Global {
+  width: 170px;
+  height: 13px;
+  margin: 1px 0 0;
+  font-family: Roboto;
+  font-size: 11px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #fff;
+}
+
+.Monthly-incl-taxes-Universe {
+  width: 170px;
+  height: 13px;
+  margin: 2px 0 0;
+  font-family: Roboto;
+  font-size: 11px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #31cfda;
+}
+
+.BG-Global {
+  width: 303px;
+  height: 50px;
+  margin: 10px 10px 0;
+  padding: 15px 86px 15px 87px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.BG-Universe {
+  width: 303px;
+  height: 50px;
+  margin: 10px 10px 0;
+  padding: 16px 89px 15px 88px;
+  border-radius: 5px;
+  border: solid 1px #31cfda;
+  background-color: #31cfda;
+}
+
+img.valid {
+  width: 20px;
+  height: 20px;
+  margin: 0 0px 0 0;
+  object-fit: contain;
+}
+
+.text-Global {
+  width: 100px;
+  height: 19px;
+  margin: 1px 0 0 10px;
+  font-family: MuseoSans;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #31cfda;
+}
+
+.text-sel-Global {
+  width: 100px;
+  height: 19px;
+  margin: 1px 0 0 10px;
+  font-family: MuseoSans;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #31cfda;
+}
+
+.text-sel-Universe {
+  width: 126px;
+  height: 19px;
+  font-family: MuseoSans;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+}
+
+.text-Universe {
+  width: 126px;
+  height: 19px;
+  font-family: MuseoSans;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+}
+
+.caption {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-family: Roboto;
+  z-index: +40;
+}

@@ -1,0 +1,123 @@
+<div class="Quote">
+  <img src="assets/img/background-travel.svg" />
+
+  <!---->
+  <div class="caption">
+    <p class="Select-a-plan Text-Style">
+      Select a plan
+    </p>
+    <span class="title">
+      PAY MONTHLY
+    </span>
+    <span>
+      <nz-switch (click)="togglePrice()"></nz-switch>
+    </span>
+    <span class="title">
+      PAY YEARLY
+    </span>
+  </div>
+
+  <div class="Rectangle-6-Copy">
+    <table>
+      <tbody>
+        <tr>
+          <td *ngFor="let p of plansAPI2;">
+            <div class="Rectangle-{{p.name}}">
+              <div class="Annes-{{p.name}}">
+                {{p['name']}}
+              </div>
+              <hr class="Line-Copy-4" />
+
+              <div class="Rectangle-Price-{{p.name}}">
+                <span class="Price-{{p.name}}">
+                  {{p.price | number: '1.0-2'}}
+                  <sup><sup>€</sup></sup>
+                </span>
+                <br />
+                <span class="Monthly-incl-taxes-{{p.name}}">
+                  {{yearlyPrice ? "YEARLY" : "MONTHLY"}} INCL. TAXES
+                </span>
+              </div>
+
+              <div *ngFor="let member of p | keyvalue">
+                <div
+                  *ngIf="!['name','price','_id','planName','percentageMultiplier','coverage', 'planId'].includes(member.key)"
+                >
+                  <hr class="Line-Copy-4" />
+                  <span class="Span-{{p.name}}">
+                    {{ planLabels.text[member.key] }}
+                    <span class="text-style-1">
+                      {{ planLabels.prep[member.key] ?
+                      planLabels.prep[member.key] :
+                      planLabels.prep["lblDefault"] }}
+                    </span>
+                    {{ member.value | number: '1.0-0' }} {{
+                    planLabels.unit[member.key] ? planLabels.unit[member.key] :
+                    planLabels.unit["lblDefault"] }}
+
+                    <div *ngIf="planLabels.textAdd[member.key]">
+                      <span class="Span-{{p.name}} text-style-2">
+                        {{ planLabels.textAdd[member.key] }}</span
+                      >
+                    </div>
+                  </span>
+                </div>
+              </div>
+
+              <div *ngFor="let member of p | keyvalue">
+                <div *ngIf="['coverage'].includes(member.key)">
+                  <hr class="Line-Copy-4" />
+                  <span class="Span-{{p.name}}">
+                    {{ planLabels.text[member.key] }}
+                    <span class="text-style-1">
+                      {{ planLabels.prep[member.key] ?
+                      planLabels.prep[member.key] :
+                      planLabels.prep["lblDefault"] }}
+                    </span>
+                    {{ member.value }} {{ planLabels.unit[member.key] ?
+                    planLabels.unit[member.key] : planLabels.unit["lblDefault"]
+                    }}
+
+                    <div *ngIf="planLabels.textAdd[member.key]">
+                      <span class="Span-{{p.name}} text-style-2">
+                        {{ planLabels.textAdd[member.key] }}</span
+                      >
+                    </div>
+                  </span>
+                </div>
+              </div>
+
+              <hr class="Line-Copy-4" />
+              <div class="BG-{{p.name}}" (click)="choosePlan(p.name)">
+                <table>
+                  <tbody>
+                    <tr>
+                      <td>
+                        <span *ngIf="selectedPlanName == p.name">
+                          <img src="assets/img/valid.svg" class="valid" />
+                        </span>
+                      </td>
+                      <td>
+                        <span
+                          *ngIf="selectedPlanName == p.name; else elseBlock"
+                          class="text-{{p.name}}"
+                        >
+                          Plan selected
+                        </span>
+                        <ng-template #elseBlock>
+                          <span class="text-sel-{{p.name}}"
+                            >Choose this plan</span
+                          >
+                        </ng-template>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

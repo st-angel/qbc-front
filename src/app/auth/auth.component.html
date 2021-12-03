@@ -1,0 +1,81 @@
+<div class="Rectangle-2"></div>
+
+<div class="qoverme">
+  <!-- 
+    <span class="keyboard_arrow_down---material"> &lt; </span>
+  -->
+  <span>&lt; QOVER.ME</span>
+</div>
+
+<div class="Mask">
+  <img src="assets/img/white.svg" class="White" />
+
+  <div class="Rectangle-Copy">
+    <form [formGroup]="formData" (ngSubmit)="onSubmit(formData.value)">
+      <span class="Welcome-at-Qover Text-Style-2"> Welcome at Qover </span>
+      <br />
+      <br />
+      <div style="position: relative;">
+        <ngx-spinner
+          bdColor="rgba(0, 0, 0, 0.0)"
+          size="20px"
+          color="#3da"
+          type="square-jelly-box"
+          [fullScreen]="false"
+        ></ngx-spinner>
+      </div>
+
+      <span class="title">E-mail</span>
+      <input
+        nz-input
+        nzBorderless
+        formControlName="username"
+        type="text"
+        class="text"
+        required
+      />
+      <div class="Rectangle-22-Copy"></div>
+      <br />
+      <span class="title">Password</span>
+      <input
+        nz-input
+        nzBorderless
+        formControlName="pass"
+        type="password"
+        class="text"
+        required
+      />
+      <div class="Rectangle-22-Copy"></div>
+
+      <img
+        class="Checked-no-label"
+        src="assets/img/checked-no-label.png"
+        srcset="
+          assets/img/checked-no-label@2x.png 2x,
+          assets/img/checked-no-label@3x.png 3x
+        "
+      />
+      <span class="Remember-me">Remember me</span>
+      <span class="Forgot-your-password">Forgot your password?</span>
+      <button nz-button nzType="primary" type="submit" class="Rectangle-Copy-3">
+        <span class="Text">Sign in to your account</span>
+      </button>
+    </form>
+  </div>
+  <div class="Rectangle-Copy-2">
+    <span>Don’t have an account?</span>
+    <span
+      ><a class="Text-Ask-access" href="#"><u> Ask access</u></a></span
+    >
+  </div>
+  <br />
+  <br />
+  <br />
+  <br />
+  <hr class="Line" />
+  <footer class="-Qover-2017">
+    <span>
+      © Qover 2022
+    </span>
+  </footer>
+</div>

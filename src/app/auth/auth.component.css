@@ -1,0 +1,224 @@
+.Rectangle-2 {
+  width: 1200px;
+  /*height: 30px;*/
+  height: 32px;
+  margin: 0 0 720px;
+  /*padding: 10px 1040px 10px 98px;*/
+  position: fixed;
+  opacity: 0.12;
+  background-color: #fff;
+}
+
+.keyboard_arrow_down---material {
+  width: 8px;
+  height: 5px;
+  margin: 2px 54px 3px 0;
+  transform: rotate(90deg);
+  background-color: #fff;
+}
+
+.qoverme {
+  width: 71px;
+  height: 10px;
+  font-family: Roboto;
+  font-size: 9px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.75px;
+  color: #fff;
+
+  position: fixed;
+  left: 100px;
+  top: 10px;
+}
+
+.Mask {
+  width: 1199.7px;
+  height: 899px;
+  padding: 90px 425px 182px 424.7px;
+  background-image: linear-gradient(122deg, #317bda -6%, #33c3c8);
+}
+
+img.White {
+  width: 86.1px;
+  height: 100px;
+  margin: 0 131.9px 30px 132px;
+  object-fit: contain;
+}
+
+.Rectangle-Copy {
+  width: 350px;
+  height: 412px;
+  margin: 30px 0 20px;
+  padding: 30px 20px 20px;
+  border-radius: 3px;
+  box-shadow: 0 2px 2px 0 #d4dce2;
+  background-color: #fff;
+}
+
+.Welcome-at-Qover {
+  width: 147px;
+  height: 28px;
+  margin: 0 81px 20px 66px;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--blue-grey);
+}
+
+.title {
+  width: 240px;
+  height: 11px;
+  margin: 0 70px 10px 0;
+  font-family: Roboto;
+  font-size: 10px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--blue-grey);
+}
+.text {
+  width: 300px;
+  height: 21px;
+  margin: 10px 10px 5px 0;
+}
+
+.Rectangle-22-Copy {
+  width: 310px;
+  height: 2px;
+  margin: 5px 0 0;
+  background-color: #317bda;
+}
+
+img.Checked-no-label {
+  width: 16px;
+  height: 16px;
+  margin: 20px 7px 22px 0;
+  object-fit: contain;
+}
+
+.Remember-me {
+  width: 79px;
+  height: 14px;
+  margin: 22px 50px 35px 7px;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--blue-grey);
+}
+
+.Forgot-your-password {
+  width: 124px;
+  height: 14px;
+  margin: 22px 0px 35px 49px;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: #317bda;
+}
+
+.Rectangle-Copy-3 {
+  width: 310px;
+  height: 45px;
+  margin: 35px 0 0;
+  padding: 8px 40px 8px;
+  border-radius: 3px;
+  background-color: #317bda;
+}
+
+.Text {
+  width: 145px;
+  height: 16px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+}
+
+.Rectangle-Copy-2 {
+  width: 350px;
+  height: 45px;
+  margin: 20px 0 0;
+  padding: 10px 53.5px 14px 54.5px;
+  border-radius: 3px;
+  border: solid 1px #fff;
+  color: #fff;
+}
+
+.Text-Ask-access {
+  width: 222px;
+  height: 16px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+}
+
+.-Qover-2017 {
+  width: 74px;
+  height: 17px;
+  margin: 16px 569px 0 147px;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.42;
+  letter-spacing: normal;
+  color: #fff;
+}
+
+.Footer-Copy {
+  width: 1200px;
+  height: 49px;
+  margin: 720px 0 0;
+  padding: 0 0 15px;
+}
+
+.Rectangle {
+  width: 1200px;
+  height: 799px;
+  border: solid 1px #ccc;
+  background-image: linear-gradient(
+      106deg,
+      #317bda 0%,
+      rgba(49, 207, 218, 0.5) 91%
+    ),
+    linear-gradient(to bottom, #317bda, #317bda);
+}
+
+.Line {
+  width: 1200px;
+  height: 1px;
+  /*margin: 0 0 16px;*/
+  border: solid 1px rgba(255, 255, 255, 0.2);
+  margin-left: -425px;
+}

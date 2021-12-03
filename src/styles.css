@@ -1,0 +1,9 @@
+/* Import base styles */
+@import "ng-zorro-antd/style/index.min.css";
+
+/* Individual component imports*/
+@import "ng-zorro-antd/input/style/index.min.css";
+@import "ng-zorro-antd/button/style/index.min.css";
+@import "ng-zorro-antd/switch/style/index.min.css";
+@import "ng-zorro-antd/select/style/index.min.css";
+@import "ng-zorro-antd/input-number/style/index.min.css";

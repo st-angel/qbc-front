@@ -1,0 +1,7 @@
+.logout {
+  top: 1%;
+  left: 5%;
+  position: fixed;
+  color: #fff;
+  z-index: 41;
+}

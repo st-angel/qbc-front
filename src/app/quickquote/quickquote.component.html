@@ -1,0 +1,125 @@
+<div class="Rectangle">
+  <img
+    src="assets/img/bitmap.png"
+    srcset="assets/img/bitmap@2x.png 2x, assets/img/bitmap@3x.png 3x"
+  />
+</div>
+<div class="Mask">
+  <div class="Rectangle-6">
+    <form [formGroup]="formDataQ" (ngSubmit)="getQuoteAPI(formDataQ.value)">
+      <table>
+        <tbody>
+          <tr>
+            <td><label class="title">Age of the driver</label></td>
+            <td>
+              <nz-input-number
+                formControlName="age"
+                [nzMin]="16"
+                [nzMax]="100"
+                [nzStep]="1"
+                [nzSize]="'large'"
+                class="title"
+                maxlength="3"
+              ></nz-input-number>
+            </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td colspan="2">
+              <!-- Validation alerts-->
+              <span *ngIf="age.invalid && (age.dirty || age.touched)">
+                <span *ngIf="age.errors?.['min']" class="alert">
+                  Sorry ! The driver is too young.
+                </span>
+              </span>
+            </td>
+          </tr>
+          <tr>
+            <td class="title">
+              <label class="title">{{assetLabel}}</label>
+            </td>
+            <td colspan="2">
+              <nz-select
+                nzShowSearch
+                formControlName="asset"
+                class="Rectangle-assets"
+              >
+                <nz-option
+                  *ngFor="let a of assetsAPI"
+                  [nzLabel]="a.assetName"
+                  [nzValue]="a.assetId"
+                  class="Rectangle-assets"
+                >
+                </nz-option>
+              </nz-select>
+            </td>
+            <td style="position: relative;">
+              <span>
+                <ngx-spinner
+                  bdColor="rgba(0, 0, 0, 0.0)"
+                  size="small"
+                  color="#3da"
+                  type="square-jelly-box"
+                  [fullScreen]="false"
+                ></ngx-spinner
+              ></span>
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td colspan="2">
+              <!-- Validation alerts-->
+              <span
+                *ngIf="formDataQ.errors?.['riskRevealed'] && (formDataQ.touched || formDataQ.dirty)"
+                class="alert"
+              >
+                Sorry! We can not accept this particular risk.
+              </span>
+            </td>
+          </tr>
+          <tr>
+            <td><label class="title">Price</label></td>
+            <td>
+              <nz-input-number
+                [nzSize]="'large'"
+                [nzMin]="0"
+                [nzStep]="100"
+                formControlName="price"
+                class="title"
+              ></nz-input-number>
+              <span>€</span>
+            </td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td></td>
+            <td colspan="2">
+              <!-- Validation alerts-->
+              <div *ngIf="price.invalid && (price.dirty || price.touched)">
+                <div *ngIf="price.errors?.['min']" class="alert">
+                  Sorry ! The price is too low.
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>
+              <button
+                nz-button
+                nzType="primary"
+                type="submit"
+                class="BG"
+                [disabled]="(price.invalid || age.invalid || formDataQ.invalid)"
+              >
+                <span>Get a price</span>
+              </button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </form>
+  </div>
+</div>
